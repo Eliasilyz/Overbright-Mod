@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+
+# Minecraft runtime data
+run/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Compiled class files
+*.class
+
+# Log files
+*.log

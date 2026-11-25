@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "overbright",
+  "version": "${version}",
+  "name": "Overbright",
+  "description": "Extends the vanilla and Sodium brightness sliders up to 1000% with smooth non-linear fine control.",
+  "authors": [
+    "eliasilyz"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/overbright"
+  },
+  "license": "MIT",
+  "icon": "assets/overbright/icon.png",
+  "environment": "client",
+  "mixins": [
+    "overbright.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3"
+  },
+  "suggests": {
+    "sodium": "*"
+  }
+}

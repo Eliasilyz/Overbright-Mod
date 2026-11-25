@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "id.my.eliasilyz.overbright.mixin",
+  "plugin": "id.my.eliasilyz.overbright.mixin.OverbrightMixinPlugin",
+  "client": [
+    "OptionsMixin",
+    "SodiumConfigBuilderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
